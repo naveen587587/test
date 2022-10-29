@@ -1,0 +1,16 @@
+<form #usersFrom="ngForm" (submit)="getUserFormData()">
+      <input type="number" placeholder="Enter number"><br><br>
+      <input type="number" placeholder="Enter nubmer"><br><br>
+      <input type="text" placeholder="enter text"><br><br>
+      <input type="text" placeholder="Enter text"><br><br>
+
+      <button>Submit</button>
+</form>
+<div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title text-danger">{{count}}</h5>
+        <button (click)="incriment()" class="btn btn-danger btn-sm ml-3">Incriment</button>
+        <button (click)="decriment()" class="btn btn-danger btn-sm">Incriment</button>
+
+      </div>
+    </div>

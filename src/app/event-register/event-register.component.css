@@ -1,0 +1,25 @@
+button{
+    background-color: green;
+    font-size: 20px;
+    border: 0;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#btn{
+    background-color: red;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    outline: green;
+}
+li{
+    color: aqua;
+    font-weight: 600;
+    font-size: 50px;
+}

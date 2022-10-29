@@ -1,0 +1,31 @@
+
+
+.card-img-top{
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+}
+.card-body{
+    font-size: small;
+}
+.card-text{
+    height: 100px;
+    overflow: auto;
+}
+.card{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 400px;
+    transition: transform .2s
+    
+}
+.container{
+    margin-left: 150px;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+}

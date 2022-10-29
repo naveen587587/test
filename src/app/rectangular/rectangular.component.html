@@ -1,0 +1,14 @@
+<h1>rectangular</h1>
+
+<label>Length</label>
+<input type="number" [(ngModel)]="length">
+<br>
+
+<label>Breadth</label>
+<input type="number" [(ngModel)]="breadth">
+<br>
+
+<button (click)="area()">Area</button>
+<button (click)="permiter()">perimter</button>
+
+<h1><span>Result :</span>  {{result}}</h1>

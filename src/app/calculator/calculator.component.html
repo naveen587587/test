@@ -1,0 +1,18 @@
+<h1>Calculator</h1>
+
+<label>Number1</label>
+<input type="number" [(ngModel)]="number1">
+<br>
+
+<label>Number2</label>
+<input type="number" [(ngModel)]="number2">
+<br>
+
+<button (click) ="add()">add</button>
+<button (click)="sub()">sub</button>
+<button (click)="mul()">mul</button>
+<button (click)="div()">div</button>
+<button (click)="rem()">Percentage</button>
+
+
+<h2><span>Result</span>  {{result}}</h2>

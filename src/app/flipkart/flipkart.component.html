@@ -1,0 +1,19 @@
+<div class="container">
+<div class="row">
+    
+<ng-container *ngFor="let flipKart of flipKarts">
+    <div class="card col-md-3 hover-zoom hover-shadow">
+    <img class="card-img-top hover-zoom" src="{{flipKart.image}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-danger">{{flipKart.title}}</h5>
+      <p class="card-text text-success">{{flipKart.description}}.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item text-primary">{{flipKart.category}}</li>
+      <li class="list-group-item text-info">${{flipKart.price}}</li>
+      <li class="list-group-item text-primary">Rating:{{flipKart.rating.rate}}&Count{{flipKart.rating.count}}</li>
+    </ul>
+</div>
+    </ng-container>
+</div>
+</div>

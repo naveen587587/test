@@ -1,0 +1,25 @@
+<input type="text" placeholder="search" [(ngModel)]="term">
+
+<button (click)="filter()">Filter</button>
+
+
+
+<table class="table table-danger">
+    <thead>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let vechicle of vehicles">
+            <td>{{vechicle.Vehicle}}</td>
+            <td>{{vechicle.manufacturer}}</td>
+            <td>{{vechicle.model}}</td>
+            <td>{{vechicle.type}}</td>
+            <td>{{vechicle.fuel}}</td>
+            <td>{{vechicle.color}}</td>
+            <td>
+                <img src="{{vechicle.image}}" width="100px" height="100px"></td>
+            <td>{{vechicle.id}}</td>
+        </tr>
+    </tbody>
+
+</table>

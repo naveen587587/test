@@ -1,0 +1,10 @@
+table{
+    background-color:white;
+    color: black;
+    width: 900px;
+    margin: auto ;
+    padding: 50px;
+    border: 3px solid green;
+    outline-style: none;
+    outline: none;
+}

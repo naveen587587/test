@@ -1,0 +1,36 @@
+<nav class="navbar navbar-light bg-light justify-content-between">
+  
+  <a class="navbar-brand text-primary"><i class="fa-brands fa-angular text-danger ml-5"></i>Angular Practice</a>
+  <h4>{{getDate()}} Time : {{time}}</h4>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <i class=" fa fa-solid fa-cart-plus fa-2x text-primary ml-2"></i>
+  </form>
+  <button (click)="logOut()">Logout</button>
+</nav>
+
+<div class="parant">
+ <div class="left">
+    <h5 routerLink="interpolation">interpolation</h5>
+    <h5 routerLink="event-binding">event binding</h5>
+    <h5 routerLink="two-way-binging">two way binding</h5>
+    <h5 routerLink="calculator">calculator</h5><br><br>
+    <h5 routerLink="rectangular">Rectangular</h5>
+    <h5 routerLink="square"> Square</h5>
+    <h5 routerLink="power">Power</h5>
+    <h5 routerLink="event-register"> Event register</h5>
+    <h5 routerLink="employe-registraion">Employee Registraion</h5>
+    <h5 routerLink="gpay">Gpay</h5>
+    <h5 routerLink="bank">BANK</h5>
+    <h5 routerLink="vehicle">vechicle</h5>
+    <h5 routerLink="typicode">Typicode</h5>
+    <h5 routerLink="flipkart">FlipKart</h5>
+    <h5 routerLink="create-account">Crate Account</h5>
+    <button routerLink="/login">Logout</button>
+ </div>
+ <div class="right">
+   <router-outlet></router-outlet>
+ </div>
+
+</div>

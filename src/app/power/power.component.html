@@ -1,0 +1,12 @@
+<h1>Power </h1>
+
+<label>Number :</label>
+<input type="number" [(ngModel)]="power"> <br> <br>
+<label>Power of:</label>
+<input type="number" [(ngModel)]="power2"><br><br>
+
+<button (click) ="square()">Square</button>
+<button (click) ="qube()">qube</button>
+<button (click) ="nthpower()">Nth Power</button>
+
+<h2>Result: {{result}}</h2>

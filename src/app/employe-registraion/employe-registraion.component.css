@@ -1,0 +1,36 @@
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+.btn1{
+    padding: 20px;
+    border: 0;
+    background-color: green;
+    display: block;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+button:hover{
+    opacity: 0.8;
+}
+div{
+    margin-left: 500px;
+}
+label{
+    color: rgb(25, 231, 25);
+}
+.yellow{
+    background-color: greenyellow;
+}
+.grey{
+    background-color: grey;
+}
