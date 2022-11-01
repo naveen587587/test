@@ -25,7 +25,9 @@ import { FlipkartComponent } from './flipkart/flipkart.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductItemsComponent } from './product-items/product-items.component';
 import { BankDeatilsComponent } from './bank-deatils/bank-deatils.component';
-import { CreateAccountComponent } from './create-account/create-account.component'
+import { CreateAccountComponent } from './create-account/create-account.component';
+import { CreateProductComponent } from './create-product/create-product.component';
+import { CreateUserComponent } from './create-user/create-user.component'
 
 @NgModule({
   declarations: [
@@ -50,7 +52,9 @@ import { CreateAccountComponent } from './create-account/create-account.componen
     CartComponent,
     ProductItemsComponent,
     BankDeatilsComponent,
-    CreateAccountComponent
+    CreateAccountComponent,
+    CreateProductComponent,
+    CreateUserComponent
   ],
   imports: [
     BrowserModule,

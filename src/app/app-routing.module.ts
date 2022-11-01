@@ -6,6 +6,7 @@ import { BankComponent } from './bank/bank.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { CartComponent } from './cart/cart.component';
 import { CreateAccountComponent } from './create-account/create-account.component';
+import { CreateUserComponent } from './create-user/create-user.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EmployeRegistraionComponent } from './employe-registraion/employe-registraion.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
@@ -43,6 +44,7 @@ const routes: Routes = [
   {path:'cart', component:CartComponent},
   {path:'create-account',canDeactivate:[NotifyGuard], component:CreateAccountComponent},
   {path:'bank-details/:id',component:BankDeatilsComponent},
+  {path:'create-user', component:CreateUserComponent}
 
 ]},
   {path:'', component: LoginComponent},

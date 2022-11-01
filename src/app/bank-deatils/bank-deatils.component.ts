@@ -18,7 +18,6 @@ export class BankDeatilsComponent implements OnInit {
     this._activateRoute.params.subscribe(
       (data:any)=>{
         this.id =data.id;
-
         this._bankService.getAccount(data.id).subscribe(
           (data:any)=>{
             this.account=data;
